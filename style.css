@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#myCanvas{
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 500px;
+}
+
+#ballCount {
+    font-size: 18px;
+    font-weight: bold;
+    color: #080101;
+    margin-left: 650px;
+  }
+  
+
+#startButton {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    margin-left:580px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #startButton:hover {
+    background-color: #45a049;
+  }
+  
+  #startButton:active {
+    background-color: #3e8e41;
+  }
+  
+  #stopButton {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+h2{
+    font-size: 32px;
+    color:olivedrab;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ball{
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: royalblue;
+    position: absolute;
+    
+}
